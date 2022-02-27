@@ -1,5 +1,6 @@
 public class NineExample {
     public static void main(String[] args) {
+//Реализация числа Фибоначчи
         int t = 0;
         int u = 1;
         int y;
@@ -24,5 +25,17 @@ public class NineExample {
             x = c;
         }System.out.println();
 
+        int q = 0;
+        int w = 1;
+        int e = 1;
+        int r;
+        System.out.print(q + " " + w + " ");
+        do {
+            e++;
+            r = q + w;
+            System.out.print(r + " ");
+            q = w;
+            w = r;
+        } while(e <= 20);
     }
 }

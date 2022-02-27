@@ -1,5 +1,6 @@
 public class ThreeExemple {
     public static void main(String[] args) {
+//Вычислить: 1+2+4+8+…+256
         int k = 0;
         for(int i = 1; i <= 256; i *= 2) {
             k += i;

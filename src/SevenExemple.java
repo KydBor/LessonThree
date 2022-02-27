@@ -1,6 +1,7 @@
 public class SevenExemple {
     public static void main(String[] args) {
-        System.out.println("Задача решена одним способом");
+/*Напишите программу, определяющую сумму всех нечетных чисел от 1
+до 99*/
         int j = 0;
         for (int i = 1; i <= 99; i += 2) {
             j += i;
